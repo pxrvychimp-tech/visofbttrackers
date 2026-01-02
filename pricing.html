@@ -1,66 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home - Full Body Tracking for VR</title>
-  <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Arial:wght@400;700&display=swap" rel="stylesheet">
-  <style>
-    * { box-sizing: border-box; }
-    body { margin: 0; font-family: Arial, sans-serif; background: #ffff00; color: #000; }
-    header { min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 40px 20px; }
-    .logo { position: absolute; top: 30px; left: 40px; font-family: 'Luckiest Guy', cursive; font-size: 36px; }
-    nav { position: fixed; top: 20px; right: 20px; }
-    nav a { margin: 0 10px; text-decoration: none; font-weight: bold; color: #000; }
-    h1 { font-family: 'Luckiest Guy', cursive; font-size: clamp(48px, 8vw, 90px); margin: 0; }
-    h2 { font-family: 'Luckiest Guy', cursive; font-size: clamp(32px, 6vw, 60px); margin: 10px 0 0; }
-    section { max-width: 900px; margin: 0 auto; padding: 40px 20px; }
-    h3 { font-size: 20px; margin-bottom: 10px; }
-    p { line-height: 1.6; font-size: 16px; }
-    ul { padding-left: 20px; }
-    ul li { margin-bottom: 6px; font-weight: bold; }
-    .scroll { text-align: center; font-size: 28px; margin: 60px 0 40px; }
-    .product-image { display: block; margin: 0 auto; max-width: 100%; height: auto; }
-    .button-container { text-align: center; margin: 20px 0; }
-    .button-container button { background: #000; color: #fff; border: none; padding: 12px 24px; font-size: 16px; margin: 10px; cursor: pointer; }
-    .button-container button:hover { opacity: 0.8; }
-    @media (max-width: 600px) { .logo { font-size: 26px; left: 20px; } }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pricing - Full Body Tracking for VR</title>
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Arial:wght@400;700&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #ffff00; color: #000; }
+.logo { position: absolute; top: 30px; left: 40px; font-family: 'Luckiest Guy', cursive; font-size: 36px; }
+nav { position: fixed; top: 20px; right: 20px; z-index: 10; }
+nav a { margin: 0 10px; text-decoration: none; font-weight: bold; color: #000; }
+section { max-width: 900px; margin: 120px auto 40px; padding: 40px 20px; text-align: center; }
+h1, h3 { font-family: 'Luckiest Guy', cursive; }
+.product-image { display: block; margin: 0 auto; max-width: 100%; height: auto; }
+.button-container { margin: 20px 0; }
+.button-container button { background: #000; color: #fff; border: none; padding: 12px 24px; font-size: 16px; margin: 10px; cursor: pointer; }
+.button-container button:hover { opacity: 0.8; }
+@media (max-width: 600px) { .logo { font-size: 26px; left: 20px; } }
+</style>
 </head>
 <body>
+<div class="logo">VISO</div>
+<nav>
+<a href="index.html">Home</a>
+<a href="contact.html">Contact</a>
+<a href="pricing.html">Pricing</a>
+</nav>
 
-  <header>
-    <div class="logo">VISO</div>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="contact.html">Contact</a>
-      <a href="pricing.html">Pricing</a>
-    </nav>
-    <h1>FULL BODY TRACKING</h1>
-    <h2>FOR VR</h2>
-  </header>
 
-  <section>
-    <h3>About this product</h3>
-    <p>We are offering a <strong>VRChat-compatible full-body tracking system</strong> at an affordable price of <strong>$72.99</strong>. Our entry-level full-body tracking package includes <strong>six trackers</strong>:</p>
-    <ul>
-      <li>2 foot trackers</li>
-      <li>2 knee trackers</li>
-      <li>1 hip tracker</li>
-      <li>1 chest tracker</li>
-    </ul>
-    <p>This system is designed to provide <strong>reliable, high-quality full-body tracking</strong> at one of the <strong>lowest prices available</strong> on the market. Despite its affordability, the trackers are <strong>fully functional and performance-tested</strong>, delivering smooth operation and accurate tracking.</p>
-    <p>Our trackers are <strong>compatible with Quest headsets</strong> and work with <strong>any VR headset capable of launching and running VRChat</strong>. Setup is simple — <strong>just press a button</strong> and launch the companion app to get started.</p>
-    <p>We are a <strong>small, dedicated company</strong> focused on delivering an accessible full-body tracking solution that users will love.</p>
-  </section>
+<section>
+<h1>Buy Now</h1>
+<img src="product.png" alt="Product Image" class="product-image">
+<p style="font-size:24px;"><strong>$72.99</strong></p>
+<div class="button-container">
+<button onclick="window.location.href='https://cashapp/$B4TZY';">Buy Now</button>
+</div>
+</section>
 
-  <section>
-    <img src="product.png" alt="Product Image" class="product-image">
-    <div class="button-container">
-      <button onclick="location.href='contact.html'">Contact Me</button>
-      <button onclick="location.href='pricing.html'">Pricing</button>
-    </div>
-  </section>
 
+<section class="button-container">
+<button onclick="location.href='index.html'">Home</button>
+<button onclick="location.href='contact.html'">Contact</button>
+</section>
 </body>
 </html>

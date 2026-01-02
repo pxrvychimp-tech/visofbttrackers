@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Full Body Tracking for VR</title>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Arial:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+      * { box-sizing: border-box; }
+      body { margin: 0; font-family: Arial, sans-serif; background: #ffff00; color: #000; }
+      .logo { position: absolute; top: 30px; left: 40px; font-family: 'Luckiest Guy', cursive; font-size: 36px; }
+      nav { position: fixed; top: 20px; right: 20px; z-index: 10; }
+      nav a { margin: 0 10px; text-decoration: none; font-weight: bold; color: #000; }
+      section { max-width: 900px; margin: 120px auto 40px; padding: 40px 20px; text-align: center; }
+      h1, h3 { font-family: 'Luckiest Guy', cursive; }
+      .button-container { margin: 20px 0; }
+      .button-container button { background: #000; color: #fff; border: none; padding: 12px 24px; font-size: 16px; margin: 10px; cursor: pointer; }
+      .button-container button:hover { opacity: 0.8; }
+      @media (max-width: 600px) { .logo { font-size: 26px; left: 20px; } }
+    </style>
+  </head>
+  <body>
+    <div class="logo">VISO</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="contact.html">Contact</a>
+      <a href="buy.html">Pricing</a>
+    </nav>
+
+    <section>
+      <h1>Contact Me</h1>
+      <h3>Email us with any questions:</h3>
+      <p><a href="mailto:pxrvychimp@gmail.com">pxrvychimp@gmail.com</a></p>
+    </section>
+
+    <section class="button-container">
+      <button onclick="location.href='index.html'">Home</button>
+      <button onclick="location.href='buy.html'">Pricing</button>
+    </section>
+  </body>
+</html>
+
